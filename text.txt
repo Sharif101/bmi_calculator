@@ -1,0 +1,8 @@
+ <h1>Please enter your height and age</h1>
+            <input type="text" onChange={handleweight} placeholder="weight kg"/>
+            <input type="text" onChange={handleheightfeet} placeholder="height feet"/>
+            <input type="text" name="" id="" onChange={handleheightinch} placeholder='height inch'/>
+
+            <button onClick={()=> calcutation(weight, height, height_inch)}>enter</button>
+            <p>your bmi is: {bmi}</p>
+            <p>you are currently: {status}</p>
